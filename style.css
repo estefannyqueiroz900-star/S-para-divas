@@ -1,0 +1,75 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+
+}
+    body{
+        background-color: rgb(246, 224, 243);
+        font-family: 'Times New Roman', Times, serif;
+        padding: 100px;
+        color: rgba(0, 0, 0, 0.487);
+    }
+.título{ 
+   text-align: center;
+   margin-top: 5px;
+   letter-spacing: 0,5px;
+}
+
+img{
+
+width:250px ;
+}
+
+
+.sessao{
+    display: flex;
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;
+
+}
+/*button{
+    width:80%;
+    margin:20px auto;
+    display:block;
+    padding:12px;
+    border:none;
+    border-radius:30px;
+    background:#ff4fa3;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+}*/
+button{
+    width:80%;
+    margin:20px auto;
+    display:block;
+    padding:12px;
+    border:none;
+    border-radius:30px;
+    background:#ff4fa3;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+ .produto{
+background-color: rgb(252, 212, 247);
+border: 5px rgb(230, 91, 144);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+padding: 50px;
+align-items: center;
+gap: 30px;
+
+
+ }
+
+p{
+font-size: 18px;
+font-weight: 10px;
+
+}
